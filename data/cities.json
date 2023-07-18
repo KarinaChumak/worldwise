@@ -1,0 +1,88 @@
+{
+  "cities": [
+    {
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-14T10:41:39.358Z",
+      "notes": "",
+      "position": {
+        "lat": "40.02958611471131",
+        "lng": "-0.04892349243164063"
+      },
+      "id": 98443213
+    },
+    {
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-07-14T10:41:39.358Z",
+      "notes": "",
+      "position": {
+        "lat": "40.02958611471131",
+        "lng": "-0.04892349243164063"
+      },
+      "id": 98443214
+    },
+    {
+      "cityName": "Leinach",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-07-14T10:43:05.149Z",
+      "notes": "",
+      "position": {
+        "lat": "49.84794561561656",
+        "lng": "9.81851577758789"
+      },
+      "id": 98443219
+    },
+    {
+      "cityName": "Karlstadt",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-07-14T10:47:25.420Z",
+      "notes": "",
+      "position": {
+        "lat": "49.9680059481165",
+        "lng": "9.779205322265627"
+      },
+      "id": 98443223
+    },
+    {
+      "cityName": "Gemunden a.Main",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-07-14T10:47:33.757Z",
+      "notes": "",
+      "position": {
+        "lat": "50.06507328383611",
+        "lng": "9.709167480468752"
+      },
+      "id": 98443224
+    },
+    {
+      "cityName": "Bad Bruckenau",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-07-14T10:47:38.735Z",
+      "notes": "",
+      "position": {
+        "lat": "50.31565429419651",
+        "lng": "9.835510253906252"
+      },
+      "id": 98443225
+    },
+    {
+      "cityName": "Munich",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-07-14T13:39:27.463Z",
+      "notes": "noice",
+      "position": {
+        "lat": "48.16242149265213",
+        "lng": "11.651000976562502"
+      },
+      "id": 98443226
+    }
+  ]
+}
