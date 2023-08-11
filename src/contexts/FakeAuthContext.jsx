@@ -27,8 +27,10 @@ function reducer(state, action) {
       };
 
     default:
+      throw new Error('Unknown action');
   }
 }
+
 function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
