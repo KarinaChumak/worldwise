@@ -11,7 +11,7 @@ import {
 import { useMap } from 'react-leaflet/hooks';
 import styles from './Map.module.css';
 
-import { useGeolocation } from '../hooks/useGeoLocation';
+import { useGeolocation } from '../hooks/useGeolocation';
 import { useUrlposition } from '../hooks/useUrlposition';
 import { useCities } from '../contexts/CitiesContext';
 import Button from './Button';
