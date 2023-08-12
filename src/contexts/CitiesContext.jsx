@@ -8,6 +8,8 @@ import {
 
 const CitiesContext = createContext();
 
+const db_url = 'https://worldwise-json-server.onrender.com';
+
 const initialState = {
   cities: [],
   isLoading: false,
@@ -61,7 +63,7 @@ function CitiesProvider({ children }) {
     const fetchCities = async () => {
       dispatch({ type: 'loading' });
       try {
-        const res = await fetch('http://localhost:8000/cities');
+        const res = await fetch(`${db_url}/cities`);
 
         const data = await res.json();
         dispatch({ type: 'cities/loaded', payload: data });
@@ -82,7 +84,7 @@ function CitiesProvider({ children }) {
       dispatch({ type: 'loading' });
 
       try {
-        const res = await fetch(`http://localhost:8000/cities/${id}`);
+        const res = await fetch(`${db_url}/cities/${id}`);
         const data = await res.json();
         dispatch({ type: 'city/loaded', payload: data });
       } catch (err) {
@@ -98,7 +100,7 @@ function CitiesProvider({ children }) {
   async function createCity(newCity) {
     dispatch({ type: 'loading' });
     try {
-      const res = await fetch(`http://localhost:8000/cities`, {
+      const res = await fetch(`${db_url}/cities`, {
         method: 'POST',
         body: JSON.stringify(newCity),
         headers: { 'Content-type': 'application/json' },
@@ -117,7 +119,7 @@ function CitiesProvider({ children }) {
     dispatch({ type: 'loading' });
 
     try {
-      const res = await fetch(`http://localhost:8000/cities/${id}`, {
+      const res = await fetch(`${db_url}/cities/${id}`, {
         method: 'DELETE',
       });
 
